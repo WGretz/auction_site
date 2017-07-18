@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Written using Ruby version 2.3.0-p0
+Have bundler => 1.12.5
+Must have sqlite installed
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Steps to get up and running:
+    1.) Run Bundle Install
+    2.) Rake db:migrate
+    3.) run Rails S
