@@ -1,0 +1,16 @@
+%table
+    %tr
+        %th Name
+        %th City
+        %th State
+        %th # Vehicles Sold
+        %th Profit
+        %th Average Vehicle Profit
+    - @auctions.each do |auction|
+        %tr
+            %td= auction.name
+            %td= auction.city
+            %td= auction.state
+            %td= auction.vehicles_sold
+            %td= auction.profits
+            %td= auction.avg_profit
